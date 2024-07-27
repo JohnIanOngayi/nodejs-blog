@@ -6,6 +6,7 @@ const expressLayout = require("express-ejs-layouts");
 const app = express();
 const PORT = 5000 || process.env.PORT;
 
+//Serving static files folder
 app.use(express.static("public"));
 
 // Templating engine
